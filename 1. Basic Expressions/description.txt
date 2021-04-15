@@ -1,5 +1,0 @@
-What is a Regex?
-
-Regex allows us to search a text or a string that matches a specific pattern
-
-Why use Regex?
