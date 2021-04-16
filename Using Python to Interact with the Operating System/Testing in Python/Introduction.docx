@@ -1,0 +1,9 @@
+
+Unit Tests:
+- Used to verify that small, isolated parts of a program are correct.
+- Important xtic - is isolation; 
+- Test should never modify production environment
+- Verify that small, isolated parts are correct.
+- Given a known input, does the output match our expectation.
+
+
