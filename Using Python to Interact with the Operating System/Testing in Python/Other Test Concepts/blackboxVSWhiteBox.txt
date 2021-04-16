@@ -1,0 +1,3 @@
+White-box testing  (clear-box or transparent testing) - relies on the test creator's knowledge of the SW being tested to construct the test cases.
+Black-box testing - written with an awareness of what the program is supposed to do - its requirement or specifications - but not how it does it.
+
