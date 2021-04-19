@@ -1,3 +1,46 @@
 White-box testing  (clear-box or transparent testing) - relies on the test creator's knowledge of the SW being tested to construct the test cases.
 Black-box testing - written with an awareness of what the program is supposed to do - its requirement or specifications - but not how it does it.
 
+
+Integration Test:
+  - verifies that the interaction btn different pieces of code & integration environments are working the way we expect them to.
+  - Takes individual pieces of code unit test verifies then combines then into a group to test.
+  - If our code makes changes to the prod env, we need to run on a test env
+
+
+Regression Tests:
+ - Usually written as a part of debugging/troubleshooting process to verify that issue has been fixed after identification.
+ - Useful to ensure the same state doesn't happen again.
+ - Used to confirm that a recent program or code change has not adversely affected exisiting features, by re-executing a full or partial selection test cases.
+ 
+
+Smoke Test: 
+ - Also known as Build Verification Test
+ - Gets their name from a concept that comes from testing HW equipment.
+ - Serve as sanity checks - answer basic questions like does the program run??
+
+
+Load Tests:
+- Verifies that the system performs well under a given load.
+
+
+Test Suite:
+- Taking together a group of tests of one or many kinds is referred to as a Test Suite.
+
+
+TEST DRIVEN DEVELOPMENT:
+- Calls for creating the test before writing the code.
+- Writing a test fast, helps you think of the ways your program could fail & break.
+- Involves writing a test, then running it to make sure it fails.
+- Once it fails, you write a code that will satisfy the test then run the test again.
+- If it passes, then you can continue to the next phase of your program.
+- If it fails, debug & run the test again.
+- Cycle is repeated for each new feature of your program until it is up & running.
+- Advantages of TDD: Problem is well thought out, test cases written before writing code, test while you develop code.
+
+
+
+
+
+
+
